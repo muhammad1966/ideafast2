@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+@font-face {
+  font-family:'logo';
+  src:url('./fonts/IndieFlower-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family:'man';
+  src:url('./fonts/Manrope-VariableFont_wght.ttf') format('truetype');
+}
+
+.ans-div{
+    max-height: 0;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    overflow: hidden;
+    padding: 0 1rem;
+}
+
+.ans-div.show{
+    height: auto;
+    max-height:1500px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+    /*@font-face {
+      font-family:'fontt';
+      src:url('./fonts/Noto_Sans_Kawi/NotoSansKawi-VariableFont_wght.ttf');
+    }*/
+
+
+/*@layer components{
+  .gradient-text{
+    background: gradient_text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  
+
+}*/

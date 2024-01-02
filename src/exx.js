@@ -1,0 +1,7 @@
+export {default as Navbar} from './components/navbar/Navbar.jsx'
+export {default as Header} from './components/header/Header.jsx'
+export {default as Services} from './components/services/Services.jsx'
+export {default as Description} from './components/description/Desription.jsx'
+export {default as FAQs} from './components/FAQs/FAQs.jsx'
+export {default as Blog} from './components/blog/Blog.jsx'
+export {default as Footer} from './components/footer/Footer.jsx'
